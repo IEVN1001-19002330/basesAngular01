@@ -1,125 +1,130 @@
 <section class="container pt-4">
 
-    <div class="text-center">
-        <h1> CALCULO DE RESISTENCIAS</h1>
-    </div>
+  <div class="text-center">
+    <h1>CALCULO DE RESISTENCIAS</h1>
+  </div>
 
-<div class="container row col-lg-12 justify-content-center pt-2">
+  <div class="container row col-lg-12 justify-content-center pt-2">
 
     <div class="row">
-         <div class="col-sm-4">
-           <div class="card">
-             <div class="card-body">
 
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                      Default radio
-                    </label>
-                    <br>
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                      Default radio
-                    </label>
-                    <br>
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                      Default radio
-                    </label>
-                    <br>
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                      Default radio
-                    </label>
-                    <br>
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                      Default radio
-                    </label>
-                    <br>
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                      Default radio
-                    </label>
-                    <br>
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                      Default radio
-                    </label>
-                    <br>
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                      Default radio
-                    </label>
-                    <br>
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                      Default radio
-                    </label>
-                    <br>
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                      Default radio
-                    </label>
-                </div>
-
-             </div>
-           </div>
-         </div>
-         <div class="col-sm-4">
-         <div class="card">
-           <div class="card-body">
-
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                      Default radio
-                    </label>
-                </div>
-
-           </div>
-         </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-center">1ra Banda</h5>
+            <div class="form-check"><input class="form-check-input" type="radio" name="banda1" [(ngModel)]="banda1" value="0"><span class="badge bg-dark col-md-12">0</span></div>
+            <div class="form-check"><input class="form-check-input" type="radio" name="banda1" [(ngModel)]="banda1" value="1"><span class="badge col-md-12" style="background-color:rgb(48, 21, 3); color:white;">1</span></div>
+            <div class="form-check"><input class="form-check-input" type="radio" name="banda1" [(ngModel)]="banda1" value="2"><span class="badge bg-danger col-md-12">2</span></div>
+            <div class="form-check"><input class="form-check-input" type="radio" name="banda1" [(ngModel)]="banda1" value="3"><span class="badge col-md-12" style="background-color:rgb(255, 118, 6); color:white;">3</span></div>
+            <div class="form-check"><input class="form-check-input" type="radio" name="banda1" [(ngModel)]="banda1" value="4"><span class="badge bg-warning col-md-12">4</span></div>
+            <div class="form-check"><input class="form-check-input" type="radio" name="banda1" [(ngModel)]="banda1" value="5"><span class="badge bg-success col-md-12">5</span></div>
+            <div class="form-check"><input class="form-check-input" type="radio" name="banda1" [(ngModel)]="banda1" value="6"><span class="badge bg-primary col-md-12">6</span></div>
+            <div class="form-check"><input class="form-check-input" type="radio" name="banda1" [(ngModel)]="banda1" value="7"><span class="badge col-md-12" style="background-color:purple; color:white;">7</span></div>
+            <div class="form-check"><input class="form-check-input" type="radio" name="banda1" [(ngModel)]="banda1" value="8"><span class="badge bg-secondary col-md-12">8</span></div>
+            <div class="form-check"><input class="form-check-input" type="radio" name="banda1" [(ngModel)]="banda1" value="9"><span class="badge bg-light text-dark col-md-12">9</span></div>
+          </div>
         </div>
-        <div class="col-sm-4">
-         <div class="card">
-           <div class="card-body">
+      </div>
 
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                      Default radio
-                    </label>
-                </div>
-
-           </div>
-         </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-center">2da Banda</h5>
+            <div class="form-check"><input class="form-check-input" type="radio" name="banda2" [(ngModel)]="banda2" value="0"><span class="badge bg-dark col-md-12">0</span></div>
+            <div class="form-check"><input class="form-check-input" type="radio" name="banda2" [(ngModel)]="banda2" value="1"><span class="badge col-md-12" style="background-color:rgb(48, 21, 3); color:white;">1</span></div>
+            <div class="form-check"><input class="form-check-input" type="radio" name="banda2" [(ngModel)]="banda2" value="2"><span class="badge bg-danger col-md-12">2</span></div>
+            <div class="form-check"><input class="form-check-input" type="radio" name="banda2" [(ngModel)]="banda2" value="3"><span class="badge col-md-12" style="background-color:rgb(255, 118, 6); color:white;">3</span></div>
+            <div class="form-check"><input class="form-check-input" type="radio" name="banda2" [(ngModel)]="banda2" value="4"><span class="badge bg-warning col-md-12">4</span></div>
+            <div class="form-check"><input class="form-check-input" type="radio" name="banda2" [(ngModel)]="banda2" value="5"><span class="badge bg-success col-md-12">5</span></div>
+            <div class="form-check"><input class="form-check-input" type="radio" name="banda2" [(ngModel)]="banda2" value="6"><span class="badge bg-primary col-md-12">6</span></div>
+            <div class="form-check"><input class="form-check-input" type="radio" name="banda2" [(ngModel)]="banda2" value="7"><span class="badge col-md-12" style="background-color:purple; color:white;">7</span></div>
+            <div class="form-check"><input class="form-check-input" type="radio" name="banda2" [(ngModel)]="banda2" value="8"><span class="badge bg-secondary col-md-12">8</span></div>
+            <div class="form-check"><input class="form-check-input" type="radio" name="banda2" [(ngModel)]="banda2" value="9"><span class="badge bg-light text-dark col-md-12">9</span></div>
+          </div>
         </div>
+      </div>
+
+
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-center">3ra Banda (Multiplicador)</h5>
+            <div class="form-check"><input class="form-check-input" type="radio" name="banda3" [(ngModel)]="multiplicador" value="1"><span class="badge bg-dark col-md-12">x1</span></div>
+            <div class="form-check"><input class="form-check-input" type="radio" name="banda3" [(ngModel)]="multiplicador" value="10"><span class="badge col-md-12" style="background-color:rgb(48, 21, 3); color:white;">x10</span></div>
+            <div class="form-check"><input class="form-check-input" type="radio" name="banda3" [(ngModel)]="multiplicador" value="100"><span class="badge bg-danger col-md-12">x100</span></div>
+            <div class="form-check"><input class="form-check-input" type="radio" name="banda3" [(ngModel)]="multiplicador" value="1000"><span class="badge col-md-12" style="background-color:rgb(255, 118, 6); color:white;">x1000</span></div>
+            <div class="form-check"><input class="form-check-input" type="radio" name="banda3" [(ngModel)]="multiplicador" value="10000"><span class="badge bg-warning col-md-12">x10000</span></div>
+            <div class="form-check"><input class="form-check-input" type="radio" name="banda3" [(ngModel)]="multiplicador" value="100000"><span class="badge bg-success col-md-12">x100000</span></div>
+            <div class="form-check"><input class="form-check-input" type="radio" name="banda3" [(ngModel)]="multiplicador" value="1000000"><span class="badge bg-primary col-md-12">x1000000</span></div>
+            <div class="form-check"><input class="form-check-input" type="radio" name="banda3" [(ngModel)]="multiplicador" value="10000000"><span class="badge col-md-12" style="background-color:purple; color:white;">x10000000</span></div>
+            <div class="form-check"><input class="form-check-input" type="radio" name="banda3" [(ngModel)]="multiplicador" value="100000000"><span class="badge bg-secondary col-md-12">x100000000</span></div>
+            <div class="form-check"><input class="form-check-input" type="radio" name="banda3" [(ngModel)]="multiplicador" value="1000000000"><span class="badge bg-light text-dark col-md-12">x1000000000</span></div>
+          </div>
+        </div>
+      </div>
     </div>
+
+
     <hr>
     <div class="row">
-         <div class="col-sm-4">
-           <div class="card">
-             <div class="card-body">
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-center">Tolerancia</h5>
+            <div class="form-check"><input class="form-check-input" type="radio" name="tolerancia" [(ngModel)]="tolerancia" value="Oro 5%"><span class="badge col-sm-12" style="background-color:gold;">Dorado 5%</span></div>
+            <div class="form-check"><input class="form-check-input" type="radio" name="tolerancia" [(ngModel)]="tolerancia" value="Plata 10%"><span class="badge col-sm-12" style="background-color:silver;">Plata 10%</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                      Default radio
-                    </label>
-                </div>
+    <!-- Botones -->
+    <div class="text-center pt-3">
+      <button class="btn btn-outline-dark me-2" (click)="calcular()">Calcular</button>
+      <button class="btn btn-outline-danger" (click)="limpiarHistorial()">Limpiar</button>
+    </div>
 
-             </div>
-           </div>
-         </div>
+    <!-- Historial de resultados -->
+    <div class="text-center pt-3" *ngIf="resultados.length > 0">
+      <h4>Resultado:</h4>
+      <div class="mb-3">
+        <table class="table table-bordered table-striped justify-content-center mx-auto">
+          <thead class="table-dark">
+            <tr>
+              <th>Color 1</th>
+              <th>Color 2</th>
+              <th>Color 3</th>
+              <th>Tolerancia</th>
+              <th>Valor (Ω)</th>
+              <th>Valor Máximo (Ω)</th>
+              <th>Valor Mínimo (Ω)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let resultado of resultados">
+              <td [ngStyle]="{'background-color': getColorBg(resultado.color1), 'color': getTextColor(resultado.color1), 'padding':'2px 6px'}">
+                {{resultado.color1}}
+              </td>
+              <td [ngStyle]="{'background-color': getColorBg(resultado.color2), 'color': getTextColor(resultado.color2), 'padding':'2px 6px'}">
+                {{resultado.color2}}
+              </td>
+              <td [ngStyle]="{'background-color': getColorBg(resultado.color3), 'color': getTextColor(resultado.color3), 'padding':'2px 6px'}">
+                {{resultado.color3}}
+              </td>
+              <td [ngStyle]="{'background-color': resultado.colTolerancia, 'color':'white', 'padding':'2px 6px'}">
+                {{resultado.toleranciaNombre }}
+              </td>
+              <td>{{resultado.valor}}</td>
+              <td>{{resultado.valorMaximo}}</td>
+              <td>{{resultado.valorMinimo}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
 
 
-    <div class="card">
-    </div>
-    
-    
-</div>
 
+  </div>
 
 </section>
-

@@ -1,0 +1,25 @@
+<div style="text-align:center; margin-top: 30px;">
+  <h2>Calculadora de Distancia entre dos puntos</h2>
+
+  <label>X1:</label>
+  <input type="number" [(ngModel)]="x1">
+  <br><br>
+
+  <label>Y1:</label>
+  <input type="number" [(ngModel)]="y1">
+  <br><br>
+
+  <label>X2:</label>
+  <input type="number" [(ngModel)]="x2">
+  <br><br>
+
+  <label>Y2:</label>
+  <input type="number" [(ngModel)]="y2">
+  <br><br>
+
+  <button (click)="calcularDistancia()">CALCULAR</button>
+
+  <div *ngIf="resultado !== null" style="margin-top:20px;">
+    <h3>La distancia entre los dos puntos es: {{resultado}}</h3>
+  </div>
+</div>
